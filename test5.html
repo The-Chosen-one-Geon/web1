@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐이터링 예약</title>
+</head>
+<body style="text-align: center; background-color: pink;">
+    <h1>케이터링 예약 접수</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <br>
+    <br>
+    <hr>
+    <br><br>
+    <form action="" style="background-color: white; text-align: left; margin: auto; width: 450px;">
+        <label for="name">이름</label><br>
+        <input type="text" id="name" required placeholder="이름을 입력하세요" autofocus>
+        <br>
+        <br>
+        <label for="password">비밀번호</label><br>
+        <input type="password" id="password">
+        <br>
+        <br>
+        <label for="email">이메일</label><br>
+        <input type="email" id="email">
+        <br>
+        <br>
+        <label for="search">장소</label><br>
+        <input type="search" id="search">
+        <br>
+        <br>
+        <label for="data">예약 날짜</label><br>
+        <input type="data" id="data">
+        <br>
+        <br>
+        <label for="nuber">고객수</label><br>
+        <input type="nuber"  id="nuber" min="0"> 명
+        <br>
+        <br>
+        <label for="range">예산 범위</label><br>
+        저예산 <input type="range" id="range" min="0" max="3"> 프리미엄
+        <br>
+        <br>
+        <label for="color">이벤트 테마 색상</label><br>
+        <input type="color" id="color">
+        <br>
+        <br>
+        <fieldset>
+            <legend>케이터링 타입</legend>
+            <input type="radio" name="catering_type" value="한식" id="korean">
+            <label for="korean">한식</label><br>
+            <input type="radio" name="catering_type" value="양식" id="western">
+            <label for="western">양식</label><br>
+            <input type="radio" name="catering_type" value="일식" id="japeness">
+            <label for="japeness">일식</label><br>
+            <input type="radio" name="catering_type" value="중식" id="chiness">
+            <label for="chiness">중식</label><br>
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>음료 종류</legend>
+            <input type="checkbox" name="drink" value="커피" id="coffee" checked>
+            <label for="coffee">커피</label><br>
+            <input type="checkbox" name="drink" value="탄산" id="soda">
+            <label for="soda">탄산</label><br>
+            <input type="checkbox" name="drink" value="맥주" id="beer">
+            <label for="beer">맥주</label><br>
+            <input type="checkbox" name="drink" value="와인" id="wine">
+            <label for="wine">와인</label><br>
+        </fieldset>
+        <br>
+        <br>
+        <label for="memo">키타 주문 사항</label><br>
+        <textarea name="memo" id="memo" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="예약하기" style="background-color: green; color:antiquewhite;">
+
+
+
+    </form>
+    
+</body>
+</html>

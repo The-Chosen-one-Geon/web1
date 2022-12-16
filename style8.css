@@ -1,0 +1,61 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-image: url(https://cdn.pixabay.com/photo/2016/03/05/21/39/background-1239034_960_720.jpg); text-align: center;
+}
+
+h2 {
+    background-color: rgba(255, 217, 0, 0.459);
+    padding : 30px;
+    margin: 30px auto;
+}
+h2:hover {
+    background-attachment: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2022/12/03/15/14/christmas-7632906_960_720.jpg);
+}
+
+hr {
+    margin-top: 30px;
+    /* border-style: dotted none none;
+    border-width: 5px; */
+    /* border-color: green; */
+    border: dotted 5px green;
+    /* border-bottom: none; */
+    width: 25%;
+    height: 50px;
+    border-radius: 30%;
+}
+
+.font-red {
+    color: red;
+}
+.font-lg {
+    font-size: 150%;
+}
+#bg-color {
+    background-color: aqua;
+}
+/* 아이디는 우선순위 1위 */
+.bg-color {
+    background-color: pink;
+}
+
+div {
+    width: 500px;
+    margin: auto;
+    background-color: rgba(240, 248, 255, 0.397);
+}
+
+section>div>p {
+    color: blue;
+}
+
+p .font-red {
+    background-color: aliceblue;
+}
+p.font-red {
+    background-color: yellow;
+}
+/* clss 사용시 띄어쓰기를 하면 태그 안에 있는 것을 가르키고 띄어쓰기가 없으면 그 태그 자체를 의미 */

@@ -1,0 +1,49 @@
+.font-per {
+    font-size: 200%;
+}
+.font-vw {
+    font-size: 5vw;
+}
+.font-vh {
+    font-size: 5vh;
+}
+div {
+    width: 100vw;
+    height: 50vh;
+    background-attachment: fixed;
+    /* background-repeat: no-repeat; */
+    /* background-image: url(https://cdn.pixabay.com/photo/2022/12/03/15/14/christmas-7632906_960_720.jpg); */
+}
+/* body {
+    margin: 0;
+} */
+* {
+    margin: 0;
+}
+
+body .container {
+    /* 가로세로 열 바꿈 */
+    flex-direction: column; 
+    /* div여러개를 묶음 */
+    display: flex;
+    /* 넓이를 초과했을때 밑에 칸으로 */
+    flex-wrap: wrap;
+    /* 가로 정령방식 선택 */
+    justify-content: space-around;
+    background-color: antiquewhite;
+    /* 컨테이너에 있는 div 모든 객체의 정렬방식 선택  */
+    align-items: baseline ;
+    /* 모든객체 정렬방식선택을 줄이 여러개 일때 */
+    align-content: space-between; 
+}
+div.item {
+    background-color: aquamarine;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+.box3 {
+    /* padding-top: 30px; */
+    /* 개별 div의 정렬방식 선택 */
+    align-self: flex-start;
+}

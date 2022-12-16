@@ -1,0 +1,28 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1, h2, h3, h4, .gugi-font {
+    font-family: 'Gugi', cursive;
+}
+.nav-link:hover,
+.nav-link.active {
+    color:yellow !important;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.2)), url(img/bg-main.jpg);
+}
+#sns-link {
+    background-image: url(img/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card-hover:hover {background-color:rgba(129, 93, 47, 0.363)}
+
+#news {
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0,0,0,0.2)), url(img/news.jpg);
+    background-size: cover;
+    
+}
